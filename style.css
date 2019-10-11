@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.hero-container{
+    height:100vh;
+}
+.intro-box{
+    text-align:center;
+    position:relative;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
