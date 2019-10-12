@@ -15,6 +15,9 @@
 }
 .section-header{
     text-align: center;
+    letter-spacing:2px;
+    padding:20px 0;
+    margin:0px;
 }
 .skill-container{
     display: flex;
@@ -22,7 +25,8 @@
     justify-content: space-around;
 }
 .skill{
-    background-color:red;
+    background-color:rgb(25, 201, 48);
+    border-radius:5px;
     width:100%;
     margin:5px;
 }
