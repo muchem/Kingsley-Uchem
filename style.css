@@ -13,3 +13,20 @@
     left:50%;
     transform:translate(-50%, -50%);
 }
+.section-header{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    text-align:center;
+    justify-content: space-around;
+}
+.skill{
+    background-color:red;
+    width:100%;
+    margin:5px;
+}
+.skill h4{
+    margin:0;
+    padding: 3px;
+}
