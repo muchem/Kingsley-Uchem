@@ -1,10 +1,16 @@
 *{
     margin:0;
     padding:0;
-    font-family: sans-serif;
+    font-family: 'Raleway',
+    sans-serif;
 }
 .hero-container{
     height:100vh;
+     background-image:url('http://shoppopgallery.com/wp-content/uploads/2019/06/red-hd-wallpapers-1080p-73-images-trending-hd-wallpaperd-advanced-11.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:100% 100%;
+     
 }
 .intro-box{
     text-align:center;
@@ -12,6 +18,8 @@
     top:40%;
     left:50%;
     transform:translate(-50%, -50%);
+    color:#d5d5d5;
+
 }
 .section-header{
     text-align: center;
@@ -25,12 +33,20 @@
     justify-content: space-around;
 }
 .skill{
-    background-color:rgb(25, 201, 48);
+    background-color:rgb(225, 29, 29);
     border-radius:5px;
     width:100%;
     margin:5px;
+    color:#d5d5d5;
+}
+.skill:hover{
+    cursor: pointer;
+    
 }
 .skill h4{
     margin:0;
     padding: 3px;
+}
+.intro-box h1{
+    font-weight: bold;
 }
