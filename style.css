@@ -78,6 +78,7 @@ ul{
 }
 .learn-more-link{
     border:solid black;
+    padding:30px;
 }
 @media screen and (max-width:576px){
     .skill-container{
