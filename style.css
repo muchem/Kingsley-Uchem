@@ -34,13 +34,16 @@
 }
 .skill{
     background-color:rgb(225, 29, 29);
+    transition: 0.3s;
     border-radius:5px;
     width:100%;
     margin:5px;
     color:#d5d5d5;
+    border:1px #07489e solid;
 }
 .skill:hover{
     cursor: pointer;
+      transform: scale(1.1);
     
 }
 .skill h4{
