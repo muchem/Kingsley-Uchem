@@ -8,11 +8,12 @@
     display:flex;
     padding:0 10px;
     align-items: center;
-    background-color:rgb(19, 19, 19);
+    background-color:#0000006a;
       position: fixed;
       top: 0;
       width: 100%;
       z-index:1;
+      /*rgb(19, 19, 19)*/
 }
 .logo{
     flex:1;
@@ -36,8 +37,8 @@
     color:#d5d5d5;
 }
 .square-box{
-    background-color:#02316e;
-    border:solid 1px #02316e;
+    background-color:#001c41;
+    border:solid 1px #001c41;
     height:38px;
     width:60px;
     margin:5px;
@@ -50,7 +51,7 @@
      top:50%;
      left:50%;
      transform:translate(-50%, -50%);
-     color:#d5d5d5;
+
 
 }
 .hero-container{
@@ -69,15 +70,21 @@
     color:#d5d5d5;
 
 }
+.letter-symbol{
+    font-weight: bold;
+    color:white;
+    letter-spacing:2px;
+}
+.logo-hero{
+    width:50px;
+    padding:0 5px 0 0;
+}
 .section-header{
     text-align: center;
     letter-spacing:2px;
     padding:55px;
     margin:0px;
 
-}
-.project-page{
-    height:100vh;
 }
 .skill-container{
     display: flex;
@@ -90,12 +97,15 @@
     border-radius:5px;
     width:100%;
     margin:5px;
-    color:#d5d5d5;
+    color:#ececec;
     border:1px #07489e solid;
 }
 .skill:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+.col-md-8{
+    padding-top:30px;
 }
 .skill h4{
     margin:0;
@@ -107,7 +117,8 @@
 .img-box{
     text-align: center;
     width: 90%;
-    height:90%;
+    height:88%;
+    
 }
 .img-box img {
     width: 100%;
@@ -126,6 +137,21 @@ ul{
     height:75px;
     width:225px;
 }
+footer{
+    bottom: 0%;
+    background-color:rgba(0, 0, 0, 0.691);
+    width:100%;
+    color:#ececec;
+}
+.footer-title{
+    text-align:center;
+    padding:50px;
+    color:#ececec;
+}
+.logo{
+    width:40px;
+    padding:0 3px 0 0;
+}
 @media screen and (max-width:576px){
     .skill-container{
         flex-direction: column;
@@ -139,4 +165,5 @@ ul{
     .skill:hover {
         transform: scale(1.0);
     }
+    
 }
