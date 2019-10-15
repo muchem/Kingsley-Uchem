@@ -41,7 +41,7 @@
     border:solid 1px #001c41;
     height:38px;
     width:60px;
-    margin:5px;
+    margin:5px 5px 5px 10px;
 
 }
 .square-box h4{
@@ -73,7 +73,7 @@
 .letter-symbol{
     font-weight: bold;
     color:white;
-    letter-spacing:2px;
+    letter-spacing:3px;
 }
 .logo-hero{
     width:50px;
