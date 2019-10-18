@@ -4,7 +4,7 @@
     font-family: 'Raleway',
         sans-serif;
 }
-
+/*nav*/
 /*download all images*/
 .nav {
     display: flex;
@@ -17,42 +17,33 @@
     z-index: 1;
     /*rgb(19, 19, 19)*/
 }
-
 .logo {
     flex: 1;
     padding-left: 20px;
 }
-
 .nav-link-box ul {
     display: flex;
     margin-bottom: 3px;
 }
-
 .nav-links li {
     list-style: none;
     margin: 10px;
-
 }
-
 .nav-links a {
     text-decoration: none;
     color: #d5d5d5;
 }
-
 .nav-links a:hover {
     text-decoration: none;
     color: #d5d5d5;
 }
-
 .square-box {
     background-color: #001c41;
     border: solid 1px #001c41;
     height: 38px;
     width: 60px;
     margin: 5px 5px 5px 10px;
-
 }
-
 .square-box h4 {
     text-align: center;
     position: relative;
@@ -60,15 +51,73 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 }
 .letter-symbol {
     font-weight: bold;
     color: white;
     letter-spacing: 3px;
 }
+/*nav-end*/
+.jumbotron{
+     height:50vh;
+     /* https://hdqwalls.com/download/clouds-summer-weather-5k-1b-1920x1080.jpg
+      */
+     background-image:url(' https://hdqwalls.com/download/clouds-summer-weather-5k-1b-1920x1080.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:cover;
+}
+.jumbotron-text{
+    text-align:center;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color:#ececec;
+}
+
+
+
+/*footer*/
+footer {
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.691);
+    width: 100%;
+    color: #ececec;
+    padding-bottom: 100px;
+
+}
+
+.contact-icon {
+    font-size: 35px;
+}
+
+.email-note {
+    padding-bottom: 20px;
+}
+
+ion-icon {
+    font-size: 50px;
+    color: rgb(218, 218, 218);
+}
+
+.footer-title {
+    text-align: center;
+    padding: 50px;
+    color: #ececec;
+    letter-spacing: 2px;
+}
+
 .logo {
     width: 40px;
     padding: 0 3px 0 0;
 }
+.email-link{
+      color: #ececec;
+}
+.email-link:hover{
+    cursor:pointer;
+    color: #ececec;
+    text-decoration:none;
+}
+
