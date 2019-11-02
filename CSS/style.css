@@ -24,6 +24,14 @@
     display:flex;
    margin-bottom:3px;
 }
+.navbar-toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
 .nav-links li{
     list-style:none;
     margin:10px;
@@ -175,20 +183,36 @@ ion-icon{
     width:40px;
     padding:0 3px 0 0;
 }
+      .navbar-toggle {
+          display: none;
+      }
+      .active {
+          display: block;
+      }
 @media screen and (max-width:1024px){
       .skill:hover {
           transform: scale(1.0);
       }
 }
 @media screen and (max-width:576px){
-    .skill-container{
-        flex-direction: column;
-    }
-    .hero-container{
-        height:90vh;
-    }
-    .skill{
-        margin:5px 0px;
-    }
-    
+       .navbar-toggle {
+           display: block;
+
+       }
+       .square{
+            display: none;
+       }
+       .nav{
+           flex-direction: column;
+       }
+       .nav-link-box{
+           display: none;
+       }
+       .nav-links{
+           flex-direction: column;
+           
+       }
+}
+@media screen and (max-width:320px) {
+
 }

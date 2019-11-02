@@ -5,6 +5,8 @@
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,12 +17,15 @@
 <body>
     <!--nav-->
     <div class = "nav">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
         <div class="logo">
             <div class = "square-box">
                 <h4 class = "letter-symbol">KU</h4>
             </div>
         </div>
-        <div class="nav-link-box">
+        <div class="nav-link-box" id="js-menu">
             <ul class="nav-links">
                 <li><a href = "index.html">Home</a></li>
                 <li><a href="index.html#Projects">Projects</a></li>
@@ -132,9 +137,10 @@
                 <a href=" https://twitter.com/KingsleyU6?lang=en" target="_blank">
                 <ion-icon name="logo-twitter" title="my Twitter"></ion-icon>
                 </a>
-            </div>
+            </div>  
         </div>
     </div>
 </footer><!--end Footer-->
+<script src = "script.js"></script>
 </body>
 </html>
