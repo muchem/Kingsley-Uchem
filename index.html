@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +17,8 @@
     <!--nav-->
     <div class = "nav">
         <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
+            <button onclick="toggle()">h</button>
+        <i class="fas fa-bars" onclick="toggle()"></i>
         </span>
         <div class="logo">
             <div class = "square-box">
@@ -38,7 +38,7 @@
     <div class = 'jumbotron hero-container'style = "margin:0">
         <div class = 'intro-box'>
             <h1 class = "animated fadeIn">Hello, my name is Kingsley Uchem.</h1>
-            <h3 class = "animated flip">Your next android developer.</h3>
+            <h3 class = "animated bounceInLeft">Your next android developer.</h3>
             <div class = "logo-box animated zoomIn">
         <a href = "https://www.linkedin.com/in/kingsley-uchem-7392b0195?trk=public_profile_samename_profile_profile-result-card_result-card_full-click"target="_blank">
             <img src="Images/linkedin.png" class="logo-hero" title="My Linkedin">
@@ -141,6 +141,7 @@
         </div>
     </div>
 </footer><!--end Footer-->
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
 <script src = "script.js"></script>
 </body>
 </html>

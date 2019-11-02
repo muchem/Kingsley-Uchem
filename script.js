@@ -1,6 +1,4 @@
-var mainNav = document.getElementById("js-menu");
-    var navBarToggle = document.getElementById("js-navbar-toggle");
-
-    navBarToggle.addEventListener("click", function() {
-    mainNav.classList.toggle("active");
-    });
+console.log('hello world')
+    function toggle(){
+        document.getElementById('js-menu').classList.toggle('active');
+    }

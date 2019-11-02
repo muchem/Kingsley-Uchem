@@ -189,6 +189,15 @@ ion-icon{
       .active {
           display: block;
       }
+      .fadeIn{
+          animation-delay: 0s;
+      }
+      .bounceInLeft{
+            animation-delay: 1.8s;
+      }
+      .zoomIn{
+           animation-delay: 2s;
+      }
 @media screen and (max-width:1024px){
       .skill:hover {
           transform: scale(1.0);
