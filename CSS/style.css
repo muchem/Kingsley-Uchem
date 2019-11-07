@@ -26,11 +26,12 @@
 }
 .navbar-toggle {
     position: absolute;
-    top: 15px;
+    top: 5px;
     right: 20px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
+    display: none;
 }
 .nav-links li{
     list-style:none;
@@ -183,14 +184,12 @@ ion-icon{
     width:40px;
     padding:0 3px 0 0;
 }
-      .navbar-toggle {
-          display: none;
-      }
+
       .active {
           display: block;
       }
       .fadeIn{
-          animation-delay: 0s;
+          animation-delay: .6s;
       }
       .bounceInLeft{
             animation-delay: 1.8s;
@@ -201,15 +200,19 @@ ion-icon{
 @media screen and (max-width:1024px){
       .skill:hover {
           transform: scale(1.0);
-      }
+       }
+           .active {
+               display: block;
+           }
 }
 @media screen and (max-width:576px){
        .navbar-toggle {
            display: block;
+           margin-left:5px;
 
        }
-       .square{
-            display: none;
+       .logo{
+           margin-right:50px;
        }
        .nav{
            flex-direction: column;
@@ -221,7 +224,19 @@ ion-icon{
            flex-direction: column;
            
        }
+       .active{
+        display: block;
+       }
 }
 @media screen and (max-width:320px) {
+       .navbar-toggle {
+           display: block;
+           right:15px;
+           margin-left: 5px;
+
+       }
+       .tech-txt{
+           font-size:18px;
+       }
 
 }
